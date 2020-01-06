@@ -1,25 +1,57 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import HomePage from './pages/HomePage';
+// import AboutDescription from './components/AboutDescription/AboutDescription';
+// import TopNavigation from './components/TopNavigation/TopNavigation';
+// import PageTop from './components/PageTop/PageTop';
+// import AboutPage from './pages/AboutPage';
+// import SpecializationPage from './pages/SpecializationPage';
+// import Projects from './pages/Projects';
+// import ContactUs from './components/ContactSection/ContactUs';
+// import ContactPage from './pages/ContactPage';
+// import ServicePage from './pages/ServicePage';
+
+import {BrowserRouter} from "react-router-dom";
+import AppRoute from "./router/AppRoute";
+
+
+
+// import SignIn from './components/SignIn/SignIn';
+
+// import logo from './cpo-experts-logo.svg';
+// import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <BrowserRouter>
+    <AppRoute/>
+  </BrowserRouter>
+
+
+
+    // {/* <div className="App"> */}
+
+
+
+
+    //     {/* <HomePage /> */}
+
+    //   {/* <SignIn /> */}
+
+    //   {/* <TopNavigation />
+    //   <PageTop  pagetitle="About Us"/>
+    //   <AboutDescription /> */}
+    //   {/* <AboutPage /> */}
+
+    //   {/* <SpecializationPage /> */}
+
+    //   {/* <Projects /> */}
+    //   {/* <ContactUs /> */}
+
+    //   {/* <ContactPage /> */}
+    //   {/* <ServicePage /> */}
+    // {/* </div> */}
+
   );
 }
 
