@@ -17,7 +17,7 @@ class Footer extends Component {
       <Fragment>
         <Container fluid={true} className="text-center footerSection footerTex">
           <Row>
-            <Col lg={3} md={6} sm={12} className="p-5 text-justify">
+            <Col lg={2} md={6} sm={12} className="p-5 text-justify">
               <h1 className="footerTitleLogo">
                 {" "}
                 <img src={logo} alt="CPO Experts Logo" /> CPO Experts
@@ -52,7 +52,7 @@ class Footer extends Component {
                             <button type="button pull-right" class="btn btn-primary">Subscribe</button> </form> */}
             </Col>
 
-            <Col lg={3} md={6} sm={12} className="text-justify p-5">
+            <Col lg={2} md={6} sm={12} className="text-justify p-5">
               <h1 className="footerTitle">Image Editing</h1>
               <a className="footerTex" href="#">
                 Clipping Path
@@ -79,7 +79,7 @@ class Footer extends Component {
               </a>
               <br />
             </Col>
-            <Col lg={3} md={6} sm={12} className="text-justify p-5">
+            {/* <Col lg={3} md={6} sm={12} className="text-justify p-5">
               <h1 className="footerTitle">Software Development</h1>
               <a className="footerTex" href="#">
                 Web Design
@@ -101,8 +101,8 @@ class Footer extends Component {
                 Discuss your need
               </a>
               <br />
-            </Col>
-            <Col lg={3} md={6} sm={12} className="text-justify p-5">
+            </Col> */}
+            <Col lg={2} md={6} sm={12} className="text-justify p-5">
               <h1 className="footerTitle">Company Info</h1>
               <a className="footerTex" href="#">
                 About Us
