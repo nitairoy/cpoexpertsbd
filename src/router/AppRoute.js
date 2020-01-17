@@ -4,12 +4,9 @@ import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
 import ServicePage from "../pages/ServicePage";
-import Projects from "../pages/Projects";
+import CorporateSocialPage from "../pages/CorporateSocialPage";
 import SpecializationPage from "../pages/SpecializationPage";
-import Pricing from "../components/Pricing/Pricing";
-import AllPricing from "../pages/AllPricing";
-import SignInPage from "../pages/SignInPage";
-import SignUpPage from "../pages/SignUpPage";
+import Leadership from "../components/Leadership/Leadership";
 
 class AppRoute extends Component {
   render() {
@@ -17,14 +14,12 @@ class AppRoute extends Component {
       <Fragment>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/pricing" component={AllPricing} />
+          <Route exact path="/leadership" component={Leadership} />
           <Route exact path="/aboutus" component={AboutPage} />
           <Route exact path="/contact" component={ContactPage} />
           <Route exact path="/services" component={ServicePage} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/csr" component={CorporateSocialPage} />
           <Route exact path="/specialization" component={SpecializationPage} />
-          {/* <Route exact path="/signin" component={SignInPage}/>
-                    <Route exact path="/signup" component={SignUpPage}/> */}
         </Switch>
       </Fragment>
     );
